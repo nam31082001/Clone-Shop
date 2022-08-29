@@ -1,0 +1,65 @@
+.homeHeader {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background: whitesmoke;
+}
+.homeHeader h1 {
+  width: 80%;
+  text-align: left;
+  margin-left: 2%;
+}
+.homeHeader div {
+  width: 20%;
+  display: flex;
+}
+.homeHeader div p {
+  margin-top: 3%;
+  margin-left: 14%;
+}
+
+.HeaderMenu {
+  border-top: 1px solid;
+  width: 100%;
+  height: 30px;
+}
+.HeaderMenu a {
+  margin-top: 1%;
+  float: left;
+  text-decoration: none;
+  margin-left: 6.8%;
+}
+.HeaderMenu a:nth-child(2):hover .DropdownProduct {
+  display: block;
+  -webkit-animation: dropdown 0.2s linear;
+          animation: dropdown 0.2s linear;
+}
+@-webkit-keyframes dropdown {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 350px;
+  }
+}
+@keyframes dropdown {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 350px;
+  }
+}
+.HeaderMenu a .btn.btn-outline-secondary {
+  border: 0px;
+}
+
+.headerImg {
+  margin: auto;
+  margin-top: 2%;
+  width: 85%;
+  height: 650px;
+  background-image: url("https://www.chupsanpham.net/wp-content/uploads/2017/07/bat-mi-cach-chup-anh-quan-ao-thoi-trang-dep-khi-ban-hang-online-02.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}/*# sourceMappingURL=home-Header.css.map */
