@@ -1,0 +1,13 @@
+.collection h2 {
+  margin: 100px;
+  text-align: center;
+}
+.collection .collection-img {
+  margin-top: 4%;
+  width: 100%;
+  height: 700px;
+  background-image: url("https://levents.asia/wp-content/uploads/2022/07/hoempage-1920x988.jpg");
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  z-index: -79;
+}/*# sourceMappingURL=collection.css.map */

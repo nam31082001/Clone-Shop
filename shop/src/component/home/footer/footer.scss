@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    display: flex;
+
+    div {
+        width: 50%;
+        height: 500px;
+        
+
+        &:nth-child(2) {
+            display: flex;
+
+            div {
+                word-wrap: break-word;
+                display:block;
+                width: 25%;
+                margin-left: 1%;
+                
+            }
+        }
+
+    }
+}
+.footer-license{
+    width: 100%;
+}

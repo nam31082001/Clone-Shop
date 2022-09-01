@@ -1,0 +1,31 @@
+.newCollection {
+    h2 {
+        margin: 100px;
+        text-align: center;
+    }
+
+    .product-newCollection {
+        width: 100%;
+        display: flex;
+        
+        div {
+            width: 33%;
+            height: 600px;
+            margin-left: 9px;
+            // background: red;
+            img{
+                width: 100%;
+                display: inline;
+            }
+        }
+        p{
+            margin-right: 80px;
+            img{
+                width: 16px;
+                height: 16px;
+                float: right;
+                margin-right: 10px;
+            }
+        }
+    }
+}

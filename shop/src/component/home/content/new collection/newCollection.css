@@ -1,0 +1,26 @@
+.newCollection h2 {
+  margin: 100px;
+  text-align: center;
+}
+.newCollection .product-newCollection {
+  width: 100%;
+  display: flex;
+}
+.newCollection .product-newCollection div {
+  width: 33%;
+  height: 600px;
+  margin-left: 9px;
+}
+.newCollection .product-newCollection div img {
+  width: 100%;
+  display: inline;
+}
+.newCollection .product-newCollection p {
+  margin-right: 80px;
+}
+.newCollection .product-newCollection p img {
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin-right: 10px;
+}/*# sourceMappingURL=newCollection.css.map */

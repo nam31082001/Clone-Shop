@@ -1,0 +1,16 @@
+.outfit h2 {
+  margin: 100px;
+  text-align: center;
+}
+.outfit .outfit-img {
+  width: 100%;
+  display: flex;
+}
+.outfit .outfit-img div {
+  width: 50%;
+  background: red;
+}
+.outfit .outfit-img div img {
+  width: 100%;
+  height: 800px;
+}/*# sourceMappingURL=outfit.css.map */

@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  display: flex;
+}
+.footer div {
+  width: 50%;
+  height: 500px;
+}
+.footer div:nth-child(2) {
+  display: flex;
+}
+.footer div:nth-child(2) div {
+  word-wrap: break-word;
+  display: block;
+  width: 25%;
+  margin-left: 1%;
+}
+
+.footer-license {
+  width: 100%;
+}/*# sourceMappingURL=footer.css.map */
