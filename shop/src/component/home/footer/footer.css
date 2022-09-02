@@ -15,6 +15,10 @@
   width: 25%;
   margin-left: 1%;
 }
+.footer div:nth-child(2) div span:hover {
+  font-weight: bolder;
+  font-size: 18px;
+}
 
 .footer-license {
   width: 100%;

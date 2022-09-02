@@ -1,0 +1,53 @@
+.search {
+  background: whitesmoke;
+  position: absolute;
+  width: 100%;
+  color: black;
+  font-weight: 100;
+  -webkit-animation: search 0.5s ease;
+          animation: search 0.5s ease;
+}
+@-webkit-keyframes search {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 63.6px;
+  }
+}
+@keyframes search {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 63.6px;
+  }
+}
+.search p {
+  text-align: end;
+}
+.search p:hover {
+  color: red;
+}
+.search input {
+  width: 70%;
+  height: 50px;
+  margin-left: 10%;
+}
+.search h5 {
+  margin: 2%;
+}
+.search .divBtn {
+  display: inline-block;
+}
+.search .divBtn .button {
+  width: 200px;
+}
+.search div a {
+  display: inline-block;
+  padding: 15px 10px;
+  margin-left: 5%;
+}
+.search div a:hover {
+  font-weight: bold;
+}/*# sourceMappingURL=search.css.map */

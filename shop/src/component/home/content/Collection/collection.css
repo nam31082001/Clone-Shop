@@ -10,4 +10,8 @@
   background-size: 100% 600px;
   background-repeat: no-repeat;
   z-index: -79;
+}
+.collection .collection-img div {
+  position: relative;
+  top: 320px;
 }/*# sourceMappingURL=collection.css.map */

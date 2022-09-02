@@ -34,7 +34,6 @@ const Footer = () => {
 
                     </div>
                     <div>
-
                         <h4>HỖ TRỢ</h4>
                         <span>Chính Sách Đổi Chả</span><br /><br />
                         <span>Tài Khoản</span><br /><br />
@@ -52,10 +51,13 @@ const Footer = () => {
                         <span>Blog</span><br /><br />
                         <span>
                             <FacebookOutlined />
-                            &emsp;&emsp;
+                            &emsp;
+
+
+                        </span>
+                        <span>
                             <YoutubeOutlined />
-                            &emsp;&emsp;
-                            <i class="fal fa-smile-beam "></i>
+                            &emsp;
                         </span>
                     </div>
 
@@ -63,7 +65,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer-license'>
-               <h5> Bản quyền của Levents ....</h5>
+                <h5> Bản quyền của Levents ....</h5>
             </div>
         </>
 

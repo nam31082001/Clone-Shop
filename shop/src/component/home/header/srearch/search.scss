@@ -1,0 +1,53 @@
+.search {
+    background: whitesmoke;
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-weight: 100;
+    animation: search 0.5s ease;
+    @keyframes search {
+        0%{
+            top:200px
+        }
+        100%{
+            top:63.6px
+        }
+        
+    }
+    p{
+        text-align: end;
+        &:hover{
+            color: red;
+        }
+    }
+
+    input {
+        width: 70%;
+        height: 50px;
+        margin-left: 10%;
+    }
+    
+
+    h5 {
+        margin: 2%;
+    }
+    .divBtn{
+        display: inline-block;
+        .button{
+            width: 200px;
+        }
+    }
+
+    div {
+        a {
+            display: inline-block;
+            padding: 15px 10px;
+            margin-left: 5%;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+.cart {
+  background: whitesmoke;
+  position: absolute;
+  width: 40%;
+  height: 700px;
+  right: 0;
+  color: black;
+  font-weight: 100;
+  overflow: scroll;
+  -webkit-animation: cart 0.5s ease;
+          animation: cart 0.5s ease;
+}
+@-webkit-keyframes cart {
+  0% {
+    right: 200px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@keyframes cart {
+  0% {
+    right: 200px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+.cart p {
+  text-align: end;
+}
+.cart p:hover {
+  color: red;
+}
+.cart .product-ss div {
+  display: flex;
+  margin-left: 1%;
+}
+.cart .product-ss div div {
+  display: block;
+}/*# sourceMappingURL=cart.css.map */

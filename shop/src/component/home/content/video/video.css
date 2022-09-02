@@ -5,5 +5,9 @@
     height: 700px;
     background-image: url('https://sp-ao.shortpixel.ai/client/q_lossless,ret_img,w_1080/https://vn.blog.kkday.com/wp-content/uploads/chup-anh-dep-bang-dien-thoai-25.jpg');
     background-size: 50% 700px;
-    z-index: -78;
+    z-index: -2;
+}
+.img div{
+    position: relative;
+    top:300px;
 }

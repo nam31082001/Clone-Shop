@@ -1,0 +1,52 @@
+.button{
+    display: block;
+    text-align: center;
+}
+.button a {
+    padding: 5px 100px;
+    border:1px solid black;
+    display: inline;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.button a span {
+    position: relative;
+    z-index: 2;
+    color: black
+}
+
+.button a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgb(214, 206, 206);
+    margin-left: 50%;
+    left: 0;
+    top: 0;
+    transition: width 1s;
+    z-index: 1;
+}
+
+.button a:hover::after {
+    width: 50%;
+}
+
+.button a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgb(214, 206, 206);
+    margin-right: 50%;
+    right: 0;
+    bottom: 0;
+    transition: width 1s;
+    z-index: 1;
+}
+
+.button a:hover::before {
+    width: 50%;
+}

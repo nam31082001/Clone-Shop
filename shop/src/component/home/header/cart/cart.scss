@@ -1,0 +1,38 @@
+.cart {
+    background: whitesmoke;
+    position: absolute;
+    width: 40%;
+    height: 700px;
+    right: 0;
+    color: black;
+    font-weight: 100;
+    overflow: scroll;
+    animation: cart 0.5s ease;
+    @keyframes cart {
+        0%{
+            right:200px
+        }
+        100%{
+            right:0px
+        }
+    }
+    p{
+        text-align: end;
+        &:hover{
+            color: red;
+        }
+    }
+
+    .product-ss {
+        div {
+            display: flex;
+            margin-left: 1%;
+
+            div {
+                display: block;
+            }
+
+           
+        }
+    }
+}

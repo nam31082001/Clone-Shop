@@ -1,3 +1,4 @@
+import Button from '../../../button/button';
 import './newCollection.css';
 const NewCollection = () => {
     return (
@@ -15,10 +16,10 @@ const NewCollection = () => {
                     <h4>370.000 vnđ</h4>
                 </div>
                 <div>
-                    
+
                     <img src="https://levents.asia/wp-content/uploads/2022/07/PINEAPPLE-TEE-N1-400x500.jpg" alt="Girl in a jacket" />
                     <p>
-                    <img src="https://levents.asia/wp-content/uploads/co4.jpg" alt="hihi" />
+                        <img src="https://levents.asia/wp-content/uploads/co4.jpg" alt="hihi" />
                         <img src="https://levents.asia/wp-content/uploads/co22.jpg" alt="hihi" />
                         <img src="https://levents.asia/wp-content/uploads/co5.jpg" alt="hihi" />
                     </p>
@@ -28,7 +29,7 @@ const NewCollection = () => {
                 <div>
                     <img src="https://levents.asia/wp-content/uploads/2022/06/POPULAR-POLO-TEE-B1-400x500.jpg" alt="Girl in a jacket" />
                     <p>
-                    <img src="https://levents.asia/wp-content/uploads/co4.jpg" alt="hihi" />
+                        <img src="https://levents.asia/wp-content/uploads/co4.jpg" alt="hihi" />
                         <img src="https://levents.asia/wp-content/uploads/co22.jpg" alt="hihi" />
                         <img src="https://levents.asia/wp-content/uploads/co5.jpg" alt="hihi" />
                     </p>
@@ -46,7 +47,7 @@ const NewCollection = () => {
                     <h4>380.000 vnđ</h4>
                 </div>
             </div>
-
+            <Button/>
         </div>
     )
 }
